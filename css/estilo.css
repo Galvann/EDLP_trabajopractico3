@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(to top, #F9A805, white);
+
+}
+h1 {color: black ;
+  background-image: url(../imagenes/montana.png);
+  background-size: 100%;
+  background-color: #F9A805;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 190px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-decoration: underline;
+  font-style: oblique;
+  display: block;
+}
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 95%;
+}
+h3 {
+  text-decoration: underline;
+  color: black;
+}
+
+nav {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 2px;
+  clear: both;
+}
+
+.recetas li {
+  display: inline-block;
+  text-align: center;
+  margin: 1% 1% 0 1%;
+
+}
+
+.wasap {
+  display:block;
+  width:150px;
+  height:150px;
+  position: fixed;
+  right:1px;
+  bottom:1px;
+}
+section {
+  float: left;
+  width: 60%;
+  margin-top: 13px;
+  overflow: hidden;
+
+}
+
+aside {
+  float: right;
+  width: 40%;
+  overflow: hidden;
+}
+
+.social a {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  padding-right: 15%;
+
+}
+
+.cordoba {
+  text-align: right;
+}
+
+footer {
+  justify-content: center;
+  clear: both;
+  display:flex;
+
+
+}
